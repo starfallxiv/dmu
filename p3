@@ -1,0 +1,499 @@
+# Dancing Mad Ultimate — P3 Guide  
+_Source: Yan Flash “絶妖星乱舞 攻略特設”_  
+_Source URL: https://yan-flash.com/ultimate/yosei-ranbu_  
+_Last checked while making this file: 2026-06-16_
+
+> This is an English raid-context localization of the **P3 front half** and **P3 back half** sections.  
+> Images are hotlinked from the original guide, so this Markdown needs internet access to render them.
+
+---
+
+## Quick role split
+
+After Kefka summons **Chaos** and **Exdeath**, the debuffs that split the group into light parties are assigned based on distance from the boss.
+
+| Side | Players |
+|---|---|
+| **Chaos side** | ST, H2, D1, D2 |
+| **Exdeath side** | MT, H1, D3, D4 |
+
+This specific split is used because of tank invuln routing.
+
+---
+
+# P3 First Half / フェーズ3 前半
+
+## Decisive Battle 1 / 決戦1回目
+
+Stand preassigned for the Chaos/Exdeath light-party split.
+
+After the split, the phase moves into **Bawl of Agony / バウル・オブ・アゴニー**.
+
+---
+
+## Bawl of Agony — Tank LB3 strat / TLB3式
+
+This is the simplified strat. The detailed “legit” version is below, but the Tank LB3 strat boils the movement down into fixed positions using **Wind** and **Water** as references.
+
+The example assumes a **Chaos Fire start**. If Fire and Water are reversed, mirror the setup.
+
+### Fire-start positioning
+
+<img src="https://yan-flash.com/api/uploads/1781106462624-7be27878.webp" alt="P3 TLB3 strat — Fire-start positioning" style="max-width: 480px; height: auto;">
+
+
+
+You still take the Chaos Fire damage, so mitigation and shielding matter. MT also needs to bait the empowered Thunder III AoE, then return to Exdeath for the follow-up tankbuster/invuln handling.
+
+### Chaos angle after first crystal resolution
+
+<img src="https://yan-flash.com/api/uploads/1781282671882-403ec4d8.webp" alt="P3 TLB3 strat — angle Chaos at 45 degrees" style="max-width: 480px; height: auto;">
+
+
+
+Place Chaos close to the wall and angle it cleanly at roughly **45 degrees**. This makes **Horizontal / Vertical Implosion** safer and more predictable.
+
+### Water resolution
+
+<img src="https://yan-flash.com/api/uploads/1781106483622-6f903379.webp" alt="P3 TLB3 strat — Water resolution" style="max-width: 480px; height: auto;">
+
+
+
+Resolve Water the same way as the first crystal set.
+
+### Move Exdeath toward Wind, D3 baits Umbra Smash
+
+<img src="https://yan-flash.com/api/uploads/1781106504036-46590fa8.webp" alt="P3 TLB3 strat — Exdeath toward Wind, D3 bait" style="max-width: 480px; height: auto;">
+
+
+
+MT drags Exdeath to the Wind crystal. D3 baits **Umbra Smash** once Chaos begins casting it. Umbra Smash is distance-based damage, so everyone else should be far from Chaos.
+
+### Tank LB3 timing and knockback
+
+<img src="https://yan-flash.com/api/uploads/1781106514964-e47bf39d.webp" alt="P3 TLB3 strat — Tank LB3 and stack" style="max-width: 480px; height: auto;">
+
+
+
+Use **Tank LB3** at around 70% of the **Vacuum Wave / 真空波** cast. Stack properly and pay attention to the knockback direction.
+
+Wind effect on your **back** means you take the knockback from behind:
+
+<img src="https://yan-flash.com/api/uploads/1781284193932-41780f40.webp" alt="Wind effect behind player" width="140" style="max-width: 480px; height: auto;">
+
+Wind effect on your **front/stomach** means you take the knockback from the front:
+
+<img src="https://yan-flash.com/api/uploads/1781284324907-ad22f9f2.webp" alt="Wind effect in front of player" width="140" style="max-width: 480px; height: auto;">
+
+---
+
+## Bawl of Agony — normal/legit explanation / 正攻法
+
+After the raidwide, players receive **Chaos Fire**, **Chaos Water**, or **Chaos Wind**. Fire, Water, and Wind crystals spawn on numbered waymarks.
+
+The crystal layout rule:
+
+| Rule | Meaning |
+|---|---|
+| Fire and Water are opposite each other | They always spawn on opposite sides. |
+| Wind is between Fire and Water | Wind is on one side between them. |
+| Opposite Wind has no crystal | The fourth direction is empty. |
+| Fire/Water can be reversed | The setup may mirror. |
+
+### Debuff and crystal cheat sheet
+
+| Item | What it means |
+|---|---|
+| **Chaos Wind** | Cleansed by taking knockback. There are front-hit and back-hit versions. |
+| **Chaos Fire** | Two players get it. When it expires, they drop point-blank AoEs. |
+| **Chaos Water** | Two players get it. When it expires, they drop donut AoEs. |
+| **Fire crystal** | After Fire expires, the crystal gives nearby players donut AoEs. Water players use this to cleanse Wind. |
+| **Water crystal** | After Water expires, the crystal gives nearby players point-blank AoEs. Fire players use this to cleanse Wind. |
+| **Wind crystal** | After Wind is cleansed, it later does a two-person shared hit on nearby players. |
+
+Fire/Water debuffs always go to **2 support players** and **2 DPS players**.
+
+Priority for Fire/Water crystal positions, from inner to outer:
+
+```text
+Tank > Healer > D1 > D2 > D3 > D4
+```
+
+Wind crystal bait priority for supports, from inner to outer:
+
+```text
+MT > ST > H1 > H2
+```
+
+DPS should avoid disrupting the support bait and take their assigned hits from inner to outer:
+
+```text
+D1 > D2 > D3 > D4
+```
+
+### Fire crystal handling
+
+<img src="https://yan-flash.com/api/uploads/1780997514902-e36012eb.webp" alt="P3 legit — Fire crystal handling" style="max-width: 480px; height: auto;">
+
+
+
+Fire players sandwich the Fire crystal. When their debuff expires, it triggers the Fire crystal, and Water players use the resulting donut AoEs to cleanse Wind.
+
+### Horizontal / Vertical Implosion
+
+<img src="https://yan-flash.com/api/uploads/1780997530152-a10b6d93.webp" alt="P3 legit — Implosion angle" style="max-width: 480px; height: auto;">
+
+
+
+After the first crystal set, Exdeath does the tankbuster. Then Chaos uses **Horizontal / Vertical Implosion**. MT points Chaos toward the side with the remaining two crystals. ST keeps Exdeath near the center.
+
+### Water crystal handling
+
+<img src="https://yan-flash.com/api/uploads/1780997545862-b287c69a.webp" alt="P3 legit — Water crystal handling" style="max-width: 480px; height: auto;">
+
+
+
+Water players sandwich the Water crystal. When their debuff expires, it triggers the Water crystal, and Fire players use the resulting point-blank AoEs to cleanse Wind.
+
+### Exdeath to Wind crystal
+
+<img src="https://yan-flash.com/api/uploads/1780997585394-a6bc0b18.webp" alt="P3 legit — move Exdeath to Wind crystal" style="max-width: 480px; height: auto;">
+
+
+
+ST moves Exdeath so it overlaps the Wind crystal. MT continues managing Chaos.
+
+### Umbra Smash and Vacuum Wave
+
+<img src="https://yan-flash.com/api/uploads/1780997606058-4012afa9.webp" alt="P3 legit — Umbra Smash and Vacuum Wave" style="max-width: 480px; height: auto;">
+
+
+
+D3 baits Umbra Smash away from the Wind crystal. During **Vacuum Wave**, players with Wind debuffs take knockback in the correct direction. Players without the relevant debuff use anti-knockback and wait outside Exdeath’s target ring.
+
+---
+
+## Ultima Blaster / アルテマブラスター
+
+During **Vacuum Wave**, watch Kefka’s dash pattern.
+
+1. Kefka dashes once.
+2. Use the landing point as the reference.
+3. Watch whether the second dash goes clockwise or counterclockwise.
+4. Dice players line up in the **opposite rotation** from Kefka’s second dash.
+
+Example: if Kefka’s second dash goes counterclockwise, dice line up clockwise starting from 1.
+
+<img src="https://yan-flash.com/api/uploads/1781174669406-92acd8d8.webp" alt="P3 Ultima Blaster — read Kefka dash, line dice opposite" style="max-width: 480px; height: auto;">
+
+
+
+The long arrow indicates the first dash. The shorter arrow indicates the second dash.
+
+Example macro visualization:
+
+<img src="https://yan-flash.com/api/uploads/1781191349337-af776764.webp" alt="P3 Ultima Blaster — macro reference image" style="max-width: 480px; height: auto;">
+
+
+
+After the dice setup, Exdeath casts Thunder III on the closest players, so tanks need to be positioned correctly.
+
+---
+
+# P3 Second Half / フェーズ3 後半
+
+## Decisive Battle 2 / 決戦2回目
+
+Use the same light-party split as the first Decisive Battle.
+
+Exdeath then casts **Thunder III / サンダガ** on the nearest players, so tanks should handle proximity/distance swap cleanly.
+
+Chaos follows with **Earthquake / じしん**, a raidwide that applies two major debuff types.
+
+| Debuff | Handling |
+|---|---|
+| **Chaos Sludge / 混沌の汚泥** | Goes to one healer and one DPS. Cleanse by healing the target to full HP. Cleanse order is fixed as **Healer → DPS**. |
+| **Chaos Earth / 混沌の土** | Everyone gets this. It is cleansed by dropping to 1 HP via black-hole beams. |
+
+When Chaos Sludge is cleansed, the central Earth crystal deals raidwide damage and applies a short Earth vulnerability. Healer timing matters.
+
+---
+
+## Target markers and Black Hole beams
+
+Every player gets a target marker from 1 to 3:
+
+| Target marker | Count | Macro marker |
+|---|---:|---|
+| First Target | 3 players | Attack |
+| Second Target | 3 players | Bind |
+| Third Target | 2 players | Stop |
+
+Use these markers to decide who takes the beams from Black Hole.
+
+Black Hole line pattern:
+
+```text
+Black Hole 1: 1 line → 2 lines
+Black Hole 2: 3 lines → 3 lines → 3 lines
+Black Hole 3: 3 lines → 3 lines → 3 lines
+Black Hole 4: 2 lines → 1 line
+Total: 24 beams
+```
+
+The beam priority is taken clockwise from the giant Kefka spawn. Aim the beams clockwise.
+
+### Black Hole spawn examples
+
+<img src="https://yan-flash.com/api/uploads/1780997709588-3f9376bb.webp" alt="P3 back half — Black Hole spawn positions" style="max-width: 480px; height: auto;">
+
+
+
+<img src="https://yan-flash.com/api/uploads/1780997724441-c6fe7ced.webp" alt="P3 back half — Black Hole rings / resolved positions" style="max-width: 480px; height: auto;">
+
+
+
+Important planned swaps:
+
+| Timing | Swap |
+|---|---|
+| Black Hole 2, second beam set | Attack 1 hands/switches with Bind 1 |
+| Black Hole 2, third beam set | Attack 2 hands/switches with Bind 2 |
+| Black Hole 3, second beam set | Bind 1 hands/switches with Stop 1 |
+| Black Hole 3, third beam set | Bind 2 hands/switches with Stop 2 |
+
+---
+
+## Binbin Binta / びんびんビンタ
+
+Kefka’s raised hand decides the safe side and whether the mechanic is a stack or role spread.
+
+The original text describes it from the perspective of looking at Kefka:
+
+| Kefka cue | Handle |
+|---|---|
+| Kefka appears to raise the left-side hand | Move to the right safe side and resolve stack. |
+| Kefka appears to raise the right-side hand | Move to the left safe side and resolve role spread. |
+
+<img src="https://yan-flash.com/api/uploads/1781027712406-786a3570.webp" alt="P3 back half — Binbin Binta example 1" style="max-width: 480px; height: auto;">
+
+
+
+<img src="https://yan-flash.com/api/uploads/1781027720140-e98f7cf7.webp" alt="P3 back half — Binbin Binta example 2" style="max-width: 480px; height: auto;">
+
+
+
+---
+
+## Black Hole 1
+
+After Binbin Binta, Exdeath creates the first Black Hole set.
+
+### First line
+
+Attack 1 takes the first line.
+
+<img src="https://yan-flash.com/api/uploads/1781548649961-9353fa15.webp" alt="P3 back half — Black Hole 1, first line" style="max-width: 480px; height: auto;">
+
+
+
+### Second line
+
+Attack 1 and Attack 2 take the second set of lines. Attack 2 takes the line opposite Attack 1, because Attack 1 takes the nearby line.
+
+<img src="https://yan-flash.com/api/uploads/1781548664509-5ae99d8f.webp" alt="P3 back half — Black Hole 1, second line" style="max-width: 480px; height: auto;">
+
+
+
+### Thunder III follow-up
+
+After the second line resolves, Thunder III hits immediately. Non-tanks should move away from Exdeath.
+
+<img src="https://yan-flash.com/api/uploads/1781549066287-4c1040cf.webp" alt="P3 back half — Thunder III after Black Hole 1" style="max-width: 480px; height: auto;">
+
+
+
+Kefka moves as Thunder III lands. Watch Chaos’s random-target Damning Edict, check Kefka’s hand, then resolve either the stack or role spread.
+
+<img src="https://yan-flash.com/api/uploads/1781201876147-baf3f6ae.webp" alt="P3 back half — Binta after Black Hole 1" style="max-width: 480px; height: auto;">
+
+
+
+---
+
+## Black Hole 2
+
+### First beam set
+
+Attack 1, Attack 2, and Attack 3 take lines clockwise from Kefka.
+
+<img src="https://yan-flash.com/api/uploads/1781548680640-14dcf5f7.webp" alt="P3 back half — Black Hole 2, first beam set" style="max-width: 480px; height: auto;">
+
+
+
+### Attack 1 hands to Bind 1
+
+<img src="https://yan-flash.com/api/uploads/1781548699266-5db22aea.webp" alt="P3 back half — Black Hole 2, Attack 1 to Bind 1" style="max-width: 480px; height: auto;">
+
+
+
+### Attack 2 hands to Bind 2
+
+<img src="https://yan-flash.com/api/uploads/1781548714329-42fd93b8.webp" alt="P3 back half — Black Hole 2, Attack 2 to Bind 2" style="max-width: 480px; height: auto;">
+
+
+
+### Kefka split + Chaos half-room
+
+Kefka moves and divides the arena. Chaos also does a half-room attack, so read both bosses to find the safe side.
+
+<img src="https://yan-flash.com/api/uploads/1781201993133-e93727ab.webp" alt="P3 back half — Kefka split plus Chaos half-room" style="max-width: 480px; height: auto;">
+
+
+
+Then Exdeath casts Thunder III again. Non-tanks should move away from Exdeath.
+
+<img src="https://yan-flash.com/api/uploads/1781202003735-d93807c1.webp" alt="P3 back half — Thunder III after Black Hole 2" style="max-width: 480px; height: auto;">
+
+
+
+---
+
+## Black Hole 3
+
+### First beam set
+
+Bind 1, Bind 2, and Bind 3 take lines clockwise from Kefka.
+
+<img src="https://yan-flash.com/api/uploads/1781548772661-cc263538.webp" alt="P3 back half — Black Hole 3, first beam set" style="max-width: 480px; height: auto;">
+
+
+
+### Bind 1 hands to Stop 1
+
+<img src="https://yan-flash.com/api/uploads/1781548789940-6d10fb43.webp" alt="P3 back half — Black Hole 3, Bind 1 to Stop 1" style="max-width: 480px; height: auto;">
+
+
+
+### Bind 2 hands to Stop 2
+
+<img src="https://yan-flash.com/api/uploads/1781548801307-73d987de.webp" alt="P3 back half — Black Hole 3, Bind 2 to Stop 2" style="max-width: 480px; height: auto;">
+
+
+
+### Chaos 45-degree angle
+
+Kefka moves. Point Chaos about **45 degrees** relative to Kefka to make the follow-up safe lane easier.
+
+<img src="https://yan-flash.com/api/uploads/1781202073339-796e6e05.webp" alt="P3 back half — point Chaos at 45 degrees" style="max-width: 480px; height: auto;">
+
+
+
+### Binta + White Hole + Implosion
+
+Check Kefka’s hand again and move to the safe side. Also, **White Hole** is happening here: everyone must be full HP when it resolves or they get petrified.
+
+<img src="https://yan-flash.com/api/uploads/1781202081513-cbbbd56a.webp" alt="P3 back half — Binta + White Hole + Implosion" style="max-width: 480px; height: auto;">
+
+
+
+---
+
+## Black Hole 4
+
+### First beam set
+
+Stop 1 and Stop 2 take lines clockwise from Kefka.
+
+<img src="https://yan-flash.com/api/uploads/1781548821080-42899d56.webp" alt="P3 back half — Black Hole 4, first beam set" style="max-width: 480px; height: auto;">
+
+
+
+### Final line
+
+Only Stop 2 takes the final line. Aim the beam toward the outer edge to reduce accidents. Everyone else dodges **As I Truly Am / ありのままのボクチン**.
+
+<img src="https://yan-flash.com/api/uploads/1781548837886-5a3dd730.webp" alt="P3 back half — Black Hole 4, final line" style="max-width: 480px; height: auto;">
+
+
+
+---
+
+## Dondoko Stomp / どんどこ地団駄
+
+Treat the direction where **As I Truly Am** came from as north. In the example image, it came from marker 1, so marker 1 is treated as north.
+
+Everyone stacks center to bait Blizzaga. When the cast resolves, identify north from giant Kefka’s feet, then split:
+
+| Position | Players |
+|---|---|
+| Northwest | MT, H1 |
+| Northeast | ST, H2 |
+| Southwest | D1, D3 |
+| Southeast | D2, D4 |
+
+<img src="https://yan-flash.com/api/uploads/1781267486713-7fe99f0a.webp" alt="P3 back half — Dondoko Stomp north reference" style="max-width: 480px; height: auto;">
+
+
+
+A stack marker appears. The marked role group stacks in the center. The unmarked role group takes the two-player towers on the left and right.
+
+<img src="https://yan-flash.com/api/uploads/1781267512571-7e09bc92.webp" alt="P3 back half — role stack / tower setup" style="max-width: 480px; height: auto;">
+
+
+
+Example where tanks/healers stack and DPS take towers:
+
+<img src="https://yan-flash.com/api/uploads/1781443358130-b67cc953.webp" alt="P3 back half — TH stack, DPS towers" style="max-width: 480px; height: auto;">
+
+
+
+The next set is always the opposite role. In this example, DPS stack in the center, while MT/H1 and ST/H2 take towers.
+
+<img src="https://yan-flash.com/api/uploads/1781443347564-4acaca82.webp" alt="P3 back half — DPS stack, TH towers" style="max-width: 480px; height: auto;">
+
+
+
+When **Protrude / 突出せよ** begins casting, spread immediately away from the previous stack location. Exdeath then casts empowered Blizzaga, so keep moving.
+
+<img src="https://yan-flash.com/api/uploads/1781267670598-b292d0fb.webp" alt="P3 back half — Protrude and empowered Blizzaga" style="max-width: 480px; height: auto;">
+
+
+
+---
+
+# P3 Timeline Summary
+
+| Mechanic | What to do |
+|---|---|
+| Decisive Battle | Split into the same light parties as P3 first half. |
+| Thunder III → Earthquake | Tanks handle proximity buster. Raidwide applies Sludge and Earth debuffs. Heal Sludge targets to full in order: healer first, then DPS. |
+| Binbin Binta | Check Kefka’s raised hand. Move to the safe side and resolve stack or role spread. |
+| Black Hole 1 | Attack markers begin beam handling. |
+| Thunder III | Tanks handle proximity. Non-tanks away from Exdeath. |
+| Binbin Binta + Damning Edict | Read Chaos half-room plus Kefka hand. |
+| Black Hole 2 | Attack group handles beams, with Attack → Bind swaps. |
+| Damning Edict + As I Truly Am | Read Kefka arena split plus Chaos half-room. |
+| Thunder III | Tanks handle proximity. |
+| Black Hole 3 | Bind group handles beams, with Bind → Stop swaps. |
+| Binbin Binta + White Hole + Implosion | Full HP for White Hole. Angle Chaos at 45 degrees. |
+| Black Hole 4 | Stop group handles final beams. |
+| As I Truly Am | Final line player must be careful with beam direction. |
+| Blizzaga + Dondoko Stomp + Landing | Read north from giant Kefka’s feet, then role 2:2 positions, stacks, and towers. |
+| Empowered Blizzaga + Protrude | Spread as soon as Protrude cast appears, then keep moving. |
+| Meteor + Bawl of Agony enrage | Enrage. |
+
+---
+
+## One-screen mental model
+
+```text
+P3 First Half:
+Crystal/debuff cleanup → Chaos angle → Wind knockback → Kefka dash/dice
+
+P3 Second Half:
+HP-state debuffs → Black Hole beam accounting → Binta/White Hole checks → stomps/towers
+```
+
+The spicy part is not “what does my marker mean?”  
+The spicy part is remembering that the beam mechanic has planned handoffs. Do not autopilot it.
